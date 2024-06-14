@@ -14,8 +14,11 @@ Imagine we are a small watch shop in the mountains of Switzerland. We have a nic
 A nice local fellow by the name of Gunther wrote a system for us that allows us to track our inventory. Each item in our inventory has a sell by date, and a quality value. As each day passes, and the sell by date gets closer, the quality of our watches degrade. Here are some specifics:
 
 All items have a SellIn value which denotes the number of days we have to sell the items
+
 All items have a Quality value which denotes how valuable the item is
+
 At the end of each day our system lowers both values for every item
+
 Pretty simple, right? Well this is where it gets interesting:
 
 Once the sell by date has passed, Quality degrades twice as fast
