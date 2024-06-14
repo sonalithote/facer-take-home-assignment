@@ -11,7 +11,7 @@ fun main(args: Array<String>) {
             Item("Passes to Watchface Conference", 15, 20),
             Item("Passes to Watchface Conference", 10, 49),
             Item("Passes to Watchface Conference", 5, 49),
-            // this conjured item does not work properly yet
+            // this fragile item does not work properly yet
             Item("Fragile Watch", 3, 6)
     )
 
