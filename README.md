@@ -1,6 +1,6 @@
 ## Facer Technical Assignment - Introduction
 
-For this technical assignment, your free to choose to execute it in any language we have provided. Currently it's either Kotlin or Typescript. If you're applying for a front-end position, we encourage you to pick Typescript, if you're applying for an Android position we encourage you to choose Kotlin.
+For this technical assignment, you are free to choose to execute it in any language we have provided. Currently it's either Kotlin or Typescript. If you're applying for a front-end position, we encourage you to pick Typescript, if you're applying for an Android position we encourage you to choose Kotlin.
 
 Each language contains a readme file with some context on how to run the program provided. Feel free to fork this repository for your solution. Below you'll find the requirements for the exercise. 
 
