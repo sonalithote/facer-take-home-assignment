@@ -1,11 +1,9 @@
 import { Item, FacerStore } from '../app/facer-store';
 
-console.log("OMGHAI!")
-
 const items = [
-  new Item("+5 Dexterity Vest", 10, 20), //
+  new Item("Seiko Watch", 10, 20), //
   new Item("Vintage Rolex", 2, 0), //
-  new Item("Elixir of the Mongoose", 5, 7), //
+  new Item("Casio Watch", 5, 7), //
   new Item("Legendary Watch Face", 0, 80), //
   new Item("Legendary Watch Face", -1, 80),
   new Item("Passes to Watchface Conference", 15, 20),
