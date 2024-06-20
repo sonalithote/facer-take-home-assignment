@@ -34,3 +34,5 @@ TypeScript/test/**/*.js.map
 TypeScript/coverage
 TypeScript/.nyc_output
 TypeScript/package-lock.json
+
+.idea
