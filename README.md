@@ -26,6 +26,7 @@ Additional rules:
     - `Quality` increases by 2 when there are 10 days or less.
     - `Quality` increases by 3 when there are 5 days or less.
     - `Quality` drops to 0 after the conference.
+    - `SellIn` refers to the number of days until the conference.
 
 Gunther claims he already implemented the above, but he is no longer available to work on this project, and we have recently signed a supplier of fragile items that requires an update to our system.
 
