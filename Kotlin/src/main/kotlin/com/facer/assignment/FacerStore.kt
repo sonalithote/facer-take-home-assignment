@@ -8,6 +8,12 @@ class FacerStore(var items: List<Item>) {
                 if (items[i].quality > 0) {
                     if (items[i].name != "Legendary Watch Face") {
                         items[i].quality = items[i].quality - 1
+                        // Fragile watch check
+                        if (items[i].name == "Fragile Watch") {
+                            //if (items[i].sellIn < 0) {
+                            items[i].quality = items[i].quality - 1
+                            //}
+                        }
                     }
                 }
             } else {
@@ -40,6 +46,10 @@ class FacerStore(var items: List<Item>) {
                         if (items[i].quality > 0) {
                             if (items[i].name != "Legendary Watch Face") {
                                 items[i].quality = items[i].quality - 1
+                                // Fragile watch check
+                                if (items[i].name == "Fragile Watch") {
+                                    items[i].quality = items[i].quality - 1
+                                }
                             }
                         }
                     } else {
@@ -50,6 +60,10 @@ class FacerStore(var items: List<Item>) {
                         items[i].quality = items[i].quality + 1
                     }
                 }
+            }
+            // Fragile watch check
+            if (items[i].quality < 0) {
+                items[i].quality = 0
             }
         }
     }
